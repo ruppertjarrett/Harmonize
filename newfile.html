@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="public/style.css">
+    <title>Harmonize</title>
+</head>
+
+<body>
+    <div class="nav">
+        <div id='logo'>
+            <a href="index.html"><img src="public/images/Harmonize.png" alt="Harmonize Logo" height="75px" width="150px"></a>
+        </div>
+        <div id='newfile'>
+            <a href="newfile.html"><img src="public/images/newfile.png" alt="New File" height="50px" width="50px"></a>
+        </div>
+        <div id='folder'>
+            <a href="folder.html"><img src="public/images/folder.png" alt="Folder" height="50px" width="50px"></a>
+        </div>
+        <a href="profile.html">
+            <div id='profile'></div>
+        </a>
+    </div>
+    <div class='main'>
+        <form id='newfileform' action="">
+            <div id='form'>
+                <div>File Name:</div>
+                <textarea name="fileName"></textarea>
+                <div>Collaborators:</div>
+                <textarea name="collaborators"></textarea>
+            </div>
+        </form>
+    </div>
+</body>
+<!-- <ul id="messages"></ul>
+<form action="">
+    <input id="m" autocomplete="off" /><button>Send</button>
+</form>
+<script src="/socket.io/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+    $(function() {
+        var socket = io();
+        $('form').submit(function() {
+            socket.emit('chat message', $('#m').val());
+            $('#m').val('');
+            return false;
+        });
+    });
+</script>
+<script src="index.js"></script> -->
+
+</html>
