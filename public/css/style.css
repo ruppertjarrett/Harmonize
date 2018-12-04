@@ -144,6 +144,15 @@
 
 #themsg {
     margin-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 5%;
+}
+
+#preview {
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#iframe {
+    height: 500px;
+    width: 500px;
 }

@@ -1,3 +1,23 @@
+<div class="nav">
+    <div id='logo'>
+        <a href="home/home.html"><img src="images/Harmonize.png" alt="Harmonize Logo" height="75px" width="150px"></a>
+    </div>
+    <div id='newfile'>
+        <form class='ng-pristine ng-valid' ng-submit="newfile()">
+            <input type="image" src="images/newfile.png" alt='New File' height="50px" width="50px">
+        </form>
+    </div>
+    <div id='folder'>
+        <form class='ng-pristine ng-valid' ng-submit="folder()">
+            <input type="image" src="images/folder.png" alt='Folder' height="50px" width="50px">
+        </form>
+    </div>
+    <div id='profile'>
+        <form class='ng-pristine ng-valid' ng-submit="profile()">
+            <input type="submit" id='profile' value=''>
+        </form>
+    </div>
+</div>
 <div id='main'>
     <div>
         <input id="projectName"></input>
@@ -7,5 +27,8 @@
         <input type="file" id="LoadFile">
         <button onclick="loadFile()">Load File</button>
     </div>
-    <textarea id="themsg" cols="150" rows="100"></textarea>
+    <div>
+        <button onclick='runHtml()'>Run Code</button>
+    </div>
+    <textarea id="themsg" cols="75" rows="50"></textarea>
 </div>
